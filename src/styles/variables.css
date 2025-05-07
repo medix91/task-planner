@@ -1,0 +1,17 @@
+:root {
+    /* Couleurs principales */
+    --primary-color: #EF4F67;         /* Rouge rosé */
+    --secondary-color: #454F80;       /* Bleu foncé */
+    --background-color: #EEEFF4;      /* Fond principal */
+    --card-bg: #ffffff;
+    --text-color: #2c2c2c;
+  
+    /* Effets */
+    --shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    --radius: 20px;
+  
+    /* Polices */
+    --main-font: 'Roboto', sans-serif;
+    --alt-font: 'Poppins', sans-serif;
+  }
+  

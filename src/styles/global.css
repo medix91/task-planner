@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Poppins:wght@400;600&display=swap');
+
+:root {
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Poppins', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html, #root {
+  height: 100%;
+  width: 100%;
+  background-color: var(--background-color);
+  font-family: var(--main-font);
+  color: var(--secondary-color);
+}
+
+/* Structure principale de l'application */
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+  padding-top: 2rem;
+  position: relative;
+}
+
+/* Logo en haut centré */
+.logo-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+/* Texte central */
+.welcome-text {
+  font-size: 2.8rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 25vh;
+  color: var(--primary-color);
+}
+
+.welcome-text span {
+  color: var(--secondary-color);
+}
+
+/* Responsive typique (optionnel, plus fin dans responsive.css) */
+@media screen and (max-width: 480px) {
+  .logo {
+    width: 80px;
+  }
+
+  .welcome-text {
+    font-size: 2.2rem;
+    margin-top: 20vh;
+  }
+}
